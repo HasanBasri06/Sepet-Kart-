@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .basketCard {
+    @apply w-basketCard h-basketCard px-3 flex justify-between items-center border border-gray-300 absolute rounded-md top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4;
+  }
+
+  .basketCard .productImage {
+    @apply w-basketCardProductImage h-basketCardProductImage rounded-md bg-green-900
+  }
+
+  .basketCard .productOwner {
+    @apply w-basketCardProductOwner h-basketCardProductOwner flex flex-col justify-start;
+  }
+
+  .basketCard .productCount {
+    @apply w-basketCardProductCount h-basketCardProductOwner flex justify-center border-l;
+  }
+}
