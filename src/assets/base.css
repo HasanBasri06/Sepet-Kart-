@@ -8,7 +8,7 @@
   }
 
   .basketCard .productImage {
-    @apply w-basketCardProductImage h-basketCardProductImage rounded-md bg-green-900
+    @apply w-basketCardProductImage h-basketCardProductImage rounded-md
   }
 
   .basketCard .productOwner {
